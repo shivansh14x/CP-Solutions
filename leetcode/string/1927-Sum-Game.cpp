@@ -30,7 +30,7 @@ public:
                    fh += 9;
                    first.pop_back();
                  }
-                 else if(second.size() > 0){
+                 else{
                     num[second[0]] = 0 + '0';
                     second.pop_back();
                  }
@@ -41,7 +41,7 @@ public:
                    fh += 9;
                    first.pop_back();
                  }
-                 else if(second.size() > 0){
+                 else{
                     num[second[0]] = 9 + '0';
                     sh += 9;
                     second.pop_back();
@@ -53,7 +53,7 @@ public:
                    sh += 9;
                    second.pop_back();
                   }
-                  else if(first.size() > 0){
+                  else{
                     num[first[0]] = 0 + '0';
                     first.pop_back();
                  }
@@ -69,7 +69,7 @@ public:
                    fh += 9;
                    first.pop_back();
                  }
-                 else if(second.size() > 0){
+                 else{
                     num[second[0]] = 0 + '0';
                     second.pop_back();
                  }
@@ -79,7 +79,7 @@ public:
                    num[first[0]] = 0 + '0';
                    first.pop_back();
                  }
-                 else if(second.size() > 0){
+                 else{
                     num[second[0]] = 0 + '0';
                     second.pop_back();
                  }
@@ -90,7 +90,7 @@ public:
                    sh += 9;
                    second.pop_back();
                   }
-                 else if(first.size() > 0){
+                 else{
                     num[first[0]] = 0 + '0';
                     first.pop_back();
                  }
